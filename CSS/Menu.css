@@ -111,7 +111,7 @@
   order: 3;
   flex-grow: 0;
 }
-.menu-picture a,svg {
+.menu-picture a svg {
   width: 49px;
   height: 49px;
   display: inline-block;
