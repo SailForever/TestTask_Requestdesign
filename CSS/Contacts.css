@@ -1,0 +1,516 @@
+.contacts {
+  position: absolute;
+  width: 1400px;
+  height: 842px;
+  left: 260px;
+  top: 4222px;
+  z-index: 3;
+}
+.contacts-left {
+  position: absolute;
+  width: 700px;
+  height: 842px;
+  background: #F9F9F9;
+  border-radius: 20px 0px 0px 20px;
+}
+.contacts-left-bigText{
+  position: absolute;
+  width: 435px;
+  height: 50px;
+  left: 100px;
+  top: 90px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #292D32;
+}
+.contacts-left-smallext{
+  position: absolute;
+  width: 473px;
+  height: 24px;
+  left: 100px;
+  top: 170px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #838383;
+}
+.contacts-left-group{
+  position: absolute;
+  width: 413px;
+  height: 393px;
+  left: 100px;
+  top: 240px;
+}
+ .contacts-left-address{
+  position: absolute;
+  width: 52px;
+  height: 24px;
+  left: 60px;
+  top: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #838383;
+ }
+ .contacts-left-addressText{
+  position: absolute;
+  width: 358px;
+  height: 66px;
+  left: 60px;
+  top: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #292D32;
+ }
+ .contacts-left-addressSvg {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 5px;
+  top: -5px;
+ }
+ .contacts-left-email {
+  position: absolute;
+  width: 52px;
+  height: 24px;
+  left: 60px;
+  top: 140px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #838383;
+ }
+ .contacts-left-emailText {
+  position: absolute;
+  width: 358px;
+  height: 66px;
+  left: 60px;
+  top: 170px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #292D32;
+ }
+ .contacts-left-emailSvg {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 5px;
+  top: 135px;
+ }
+ .contacts-left-phone {
+  position: absolute;
+  width: 52px;
+  height: 24px;
+  left: 60px;
+  top: 280px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #838383;
+ }
+ .contacts-left-phoneText {
+  position: absolute;
+  width: 180px;
+  height: 66px;
+  left: 60px;
+  top: 310px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #292D32; 
+ }
+ .contacts-left-phoneText a {
+  text-decoration: none;
+  color: #292D32;
+ }
+ .contacts-left-phoneSvg {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 5px;
+  top: 275px;
+ }
+ .contacts-left-fb, .contacts-left-fb img {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 5px;
+  top: 215px;
+ }
+ .contacts-left-phone2, .contacts-left-phone2 img {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 35px;
+  top: 215px;
+ }
+.contacts-right {
+  position: absolute;
+  width: 700px;
+  height: 842px;
+  left: 700px;
+  background: #292D32;
+  border-radius: 0px 20px 20px 0px;
+}
+.contacts-right-text1 {
+  position: absolute;
+  width: 80%;
+  height: 50px;
+  left: 10%;
+  top: 100px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+.contacts-right-text2 {
+  position: absolute;
+  width: 80%;
+  height: 50px;
+  left: 10%;
+  top: 170px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.formApply {
+  position: absolute;
+  top: 250px;
+  left: 120px;
+}
+.formApply-inner textarea {
+  resize: none;
+}
+.formApply-inp1, .formApply-inp2, .formApply-inner textarea {
+  display: block;
+  width: 430px;
+  background: #292D32;
+  line-height: 60px;
+  border: 2px solid rgba(242, 242, 242, 0.5);
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #F2F2F2;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.formApply-img{
+  background: url(../SVG/ArrowRinput.svg) no-repeat center left;
+  padding-left:30px;
+  display: block;
+  width: 200px;
+  line-height: 60px;
+  border: solid #292D32;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #F2F2F2;
+  text-align: center;
+}
+input[type="submit" i] {
+  cursor: pointer;
+}
+.formApply-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #F2F2F2;
+  background-color: #292D32;
+  position: absolute;
+  padding: 0px 7px;
+  top: -13px;
+  left: 25px;
+}
+.formApply-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #F2F2F2;
+  background-color: #292D32;
+  position: absolute;
+  padding: 0px 7px;
+  top: 112px;
+  left: 25px;
+}
+.formApply-3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #F2F2F2;
+  background-color: #292D32;
+  position: absolute;
+  padding: 0px 7px;
+  top: 236px;
+  left: 25px;
+}
+.formApply-1fail{
+  color: red;
+  top: -35px;
+  position: relative;
+}
+.formApply-2fail{
+  color: red;
+  top: -35px;
+  position: relative;
+}
+.formApply-3fail{
+  color: red;
+  top: -35px;
+  position: relative;
+}
+.iphone {
+  background: url(../Picture/PictureIphone.png);
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  left: 500px;
+  top: 150px;
+}
+.bigImgOur {
+  position: absolute;
+  width: 1920px;
+  height: 676px;
+  left: 0px;
+  top: 4568px;
+  background: linear-gradient(0deg, #EEEEEE, #EEEEEE), linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42))
+}
+.bigImgOur-text {
+  position: absolute;
+  width: 1635px;
+  height: 471.82px;
+  top: 150px;
+  left: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 255px;
+  line-height: 92.69%;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #EEEEEE -45.37%, rgba(238, 238, 238, 0) 95.17%), linear-gradient(89.91deg, rgba(255, 255, 255, 0.85) 11.75%, rgba(255, 255, 255, 0) 162.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.6;
+}
+@media all and (min-width: 1920px) {
+  .contacts-right {
+    width: 80%;
+  }
+}
+@media all and (max-width: 375px) {
+  .contacts {
+    position: absolute;
+    width: 1400px;
+    height: 842px;
+    left: 0px;
+    top: 7400px;
+    z-index: 3;
+  }
+  .contacts-left {
+    position: absolute;
+    width: 700px;
+    height: 842px;
+    background: #F9F9F9;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .contacts-left-bigText{
+    position: absolute;
+    width: 435px;
+    height: 50px;
+    left: 20px;
+    top: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    color: #292D32;
+  }
+  .contacts-left-smallext{
+    position: absolute;
+    width: 303px;
+    height: 24px;
+    left: 20px;
+    top: 170px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #838383;
+  }
+  .contacts-left-group{
+    position: absolute;
+    width: 413px;
+    height: 393px;
+    left: -10px;
+    top: 240px;
+    scale: 0.8;
+  }
+  .contacts-right {
+    position: absolute;
+    width: 700px;
+    height: 842px;
+    left: 0px;
+    top: 740px;
+    background: #292D32;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .contacts-right-text1 {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    left: 30px;
+    top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+  }
+  .contacts-right-text2 {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 20px;
+    top: 170px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .formApply {
+    position: absolute;
+    top: 250px;
+    left: 23px;
+  }
+  .formApply-inner textarea {
+    resize: none;
+  }
+  .formApply-inp1, .formApply-inp2, .formApply-inner textarea {
+    display: block;
+    width: 320px;
+    background: #292D32;
+    line-height: 60px;
+    border: 2px solid rgba(242, 242, 242, 0.5);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F2F2F2;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .formApply-img{
+    background: url(../SVG/ArrowRinput.svg) no-repeat center left;
+    padding-left:30px;
+    display: block;
+    width: 200px;
+    line-height: 60px;
+    border: solid #292D32;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F2F2F2;
+    text-align: center;
+  }
+  input[type="submit" i] {
+    cursor: pointer;
+  }
+  .formApply-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F2F2F2;
+    background-color: #292D32;
+    position: absolute;
+    padding: 0px 7px;
+    top: -13px;
+    left: 25px;
+  }
+  .formApply-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F2F2F2;
+    background-color: #292D32;
+    position: absolute;
+    padding: 0px 7px;
+    top: 112px;
+    left: 25px;
+  }
+  .formApply-3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F2F2F2;
+    background-color: #292D32;
+    position: absolute;
+    padding: 0px 7px;
+    top: 236px;
+    left: 25px;
+  }
+  .formApply-1fail{
+    color: red;
+    top: -35px;
+    position: relative;
+  }
+  .formApply-2fail{
+    color: red;
+    top: -35px;
+    position: relative;
+  }
+  .formApply-3fail{
+    position: relative;
+    display: block;
+    width: 350px;
+    color: red;
+    top: -35px;
+  }
+  .iphone {
+    background: url(../Picture/PictureIphone.png);
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    left: 130px;
+    top: 380px;
+    scale: 0.55;
+  }
+  .bigImgOur {
+    display: none;
+  }
+}

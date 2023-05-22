@@ -6,17 +6,20 @@
   top: 0px;
   background: #FFFFFF
 }
+
 .menu-logo {
   position: absolute;
   left: 260px;
   top: 27px;
 }
+
 .menu-logo a {
   display: block;
   width: 70px;
   height: 70px;
   background: url(../Picture/Logo.jpg)
 }
+
 .menu-words {
   display: flex;
   flex-direction: row;
@@ -29,6 +32,7 @@
   left: 390px;
   top: 53px;
 }
+
 .menu-words-0 {
   width: 70px;
   height: 18px;
@@ -36,6 +40,7 @@
   order: 0;
   flex-grow: 0;
 }
+
 .menu-words-1 {
   width: 67px;
   height: 18px;
@@ -43,6 +48,7 @@
   order: 1;
   flex-grow: 0;
 }
+
 .menu-words-2 {
   width: 70px;
   height: 18px;
@@ -50,6 +56,7 @@
   order: 2;
   flex-grow: 0;
 }
+
 .menu-words-3 {
   width: 72px;
   height: 18px;
@@ -57,6 +64,7 @@
   order: 3;
   flex-grow: 0;
 }
+
 .menu-words-4 {
   width: 82px;
   height: 18px;
@@ -64,6 +72,7 @@
   order: 4;
   flex-grow: 0;
 }
+
 .menu-words a {
   text-decoration: none;
   font-family: 'Roboto';
@@ -75,10 +84,12 @@
   text-transform: uppercase;
   color: #292D32;
 }
+
 .menu-words a:hover {
   color: red;
   transition-duration: 500ms;
 }
+
 .menu-picture {
   display: flex;
   flex-direction: row;
@@ -91,28 +102,224 @@
   left: 1374px;
   top: 37px;
 }
+
+.menu-dropdown-win {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 300px;
+  left: -120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.menu-dropdown-a1 {
+  position: relative;
+  height: 60px;
+  top: 7px;
+}
+
+.menu-dropdown-a1-text {
+  position: relative;
+  top: -15px;
+  left: 15px;
+}
+
+.menu-dropdown-a2 {
+  border-top: solid 1px #F2F2F2;
+}
+
+.menu-dropdown-a3 {
+  border-top: solid 1px #F2F2F2;
+  border-bottom: solid 1px #F2F2F2;
+}
+
+.menu-dropdown-a4 {
+  border-bottom: solid 1px #F2F2F2;
+}
+
+.menu-dropdown-win a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
 .menu-picture-0 {
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
+.menu-picture-0:hover .menu-dropdown-win {
+  display: block;
+}
+
 .menu-picture-1 {
   flex: none;
   order: 1;
   flex-grow: 0;
 }
+
 .menu-picture-2 {
   flex: none;
   order: 2;
   flex-grow: 0;
 }
+
 .menu-picture-3 {
   flex: none;
   order: 3;
   flex-grow: 0;
 }
+
 .menu-picture a svg {
   width: 49px;
   height: 49px;
   display: inline-block;
+}
+
+
+@media all and (min-width: 376px) {
+
+  .menu-picture-search,
+  .topnav {
+    display: none;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .menu {
+    position: absolute;
+    width: 375px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF
+  }
+
+  .menu-logo {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+
+  .menu-logo a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(../Picture/Logo.jpg)
+  }
+
+  .menu-words,
+  .menu-words-0,
+  .menu-words-1,
+  .menu-words-2,
+  .menu-words-3,
+  .menu-words-4,
+  .menu-words a {
+    display: none;
+  }
+
+  .menu-picture-1,
+  .menu-picture-2 {
+    display: none;
+  }
+
+  .menu-picture {
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 100px;
+    top: 37px;
+  }
+
+  .menu-picture-0 {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 90px;
+    top: 0px;
+  }
+
+  .menu-picture-3 {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 150px;
+    top: 0px;
+  }
+
+  .menu-picture-search,
+  .menu-picture-search img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    top: 4px;
+  }
+
+  /* Стиль меню навигации */
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    right: -40px;
+    top: -5px;
+    width: 171px;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+  
+  .link1,.link2,.link3,.link4,.link5{ 
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 22px;
+    z-index: 10;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .icon img {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: -424px;
+    display: block;
+    left: 0px;
+  }
+
+  .active {
+    position: relative;
+    left: 0px;
+    width: 32px;
+    height: 69px;
+  }
+
 }

@@ -142,6 +142,13 @@
   background: url(../Picture/Benef1.png);
   filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
 }
+.benefits-2-1-button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 335px;
+  top: 247px;
+}
 .benefits-2-2 {
   position: absolute;
   width: 439px;
@@ -150,6 +157,13 @@
   top: 200px;
   background: url(../Picture/Benef2.png);
   filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+}
+.benefits-2-2-button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 335px;
+  top: 246px;
 }
 .benefits-2-3 {
   position: absolute;
@@ -160,6 +174,13 @@
   background: url(../Picture/Benef3.png);
   filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
 }
+.benefits-2-3-button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 336px;
+  top: 246px;
+}
 .benefits-2-4 {
   position: absolute;
   width: 439px;
@@ -168,6 +189,13 @@
   top: 594px;
   background: url(../Picture/Benef4.png);
   filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+}
+.benefits-2-4-button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 334px;
+  top: 245px;
 }
 .benefits-2-5 {
   position: absolute;
@@ -178,6 +206,13 @@
   background: url(../Picture/Benef5.png);
   filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
 }
+.benefits-2-5-button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 335px;
+  top: 245px;
+}
 .benefits-2-6 {
   position: absolute;
   width: 439px;
@@ -187,14 +222,233 @@
   background: url(../Picture/Benef6.png);
   filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
 }
-.benefits-2-button {
+.benefits-2-6-button {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 341px;
-  top: 253px;
+  width: 44px;
+  height: 44px;
+  left: 336px;
+  top: 245px;
 }
-.benefits-2-button svg {
-  width: 32px;
-  height: 32px;
+@media all and (max-width: 375px) {
+  .benefits {
+    position: absolute;
+    width: 375px;
+    height: 1850px;
+    left: 0px;
+    top: 3120px;
+    background: #F2F2F2;
+  }
+  .benefits-big-img {
+    position: absolute;
+    width: 874px;
+    height: 492px;
+    left: -200px;
+    top: 100px;
+    scale: 0.45;
+    background: url(../Picture/Image45.png);
+  }
+  .benefits-text1 {
+    position: absolute;
+    width: 375px;
+    height: 50px;
+    left: 20px;
+    top: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #292D32;
+  }
+  .benefits-text2 {
+    position: absolute;
+    width: 375px;
+    height: 81px;
+    left: 20px;
+    top: 140px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #838383;
+  }
+  .benefits-button {
+    position: absolute;
+    width: 193px;
+    height: 55px;
+    left: 15px;
+    top: 292px;
+  }
+  .benefits-img1 {
+    position: absolute;
+    width: 330px;
+    height: 289px;
+    left: 22px;
+    top: 480px;
+    background: url(../Picture/Frame30.png);
+  }
+  .benefits-img2 {
+    position: absolute;
+    width: 330px;
+    height: 289px;
+    left: 22px;
+    top: 810px;
+    background: url(../Picture/Frame31.png);
+  }
+  .benefits-img3 {
+    position: absolute;
+    width: 330px;
+    height: 289px;
+    left: 22px;
+    top: 1140px;
+    background: url(../Picture/Frame32.png);
+  }
+  .benefits-img4 {
+    position: absolute;
+    width: 330px;
+    height: 289px;
+    left: 22px;
+    top: 1470px;
+    background: url(../Picture/Frame33.png);
+  }
+  .benefits-2 {
+    position: absolute;
+    width: 1521px;
+    height: 1900px;
+    left: 0px;
+    top: 5100px;
+  }
+  .benefits-2-text1 {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 59px;
+    color: #292D32;
+  }
+  .benefits-2-text2 {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 360px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #838383;
+  }
+  .benefits-2-1 {
+    position: absolute;
+    width: 439px;
+    height: 363px;
+    left: -25px;
+    top: 200px;
+    background: url(../Picture/Benef1.png);
+    filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+    scale: 0.8;
+  }
+  .benefits-2-1-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 335px;
+    top: 247px;
+  }
+  .benefits-2-2 {
+    position: absolute;
+    width: 439px;
+    height: 363px;
+    left: 550px;
+    top: 520px;
+    background: url(../Picture/Benef2.png);
+    filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+    left: -25px;
+    scale: 0.8;
+  }
+  .benefits-2-2-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 335px;
+    top: 246px;
+  }
+  .benefits-2-3 {
+    position: absolute;
+    width: 439px;
+    height: 363px;
+    left: 1040px;
+    top: 845px;
+    background: url(../Picture/Benef3.png);
+    filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+    left: -25px;
+    scale: 0.8;
+  }
+  .benefits-2-3-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 336px;
+    top: 246px;
+  }
+  .benefits-2-4 {
+    position: absolute;
+    width: 439px;
+    height: 363px;
+    left: 60px;
+    top: 1170px;
+    background: url(../Picture/Benef4.png);
+    filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+    left: -25px;
+    scale: 0.8;
+  }
+  .benefits-2-4-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 334px;
+    top: 245px;
+  }
+  .benefits-2-5 {
+    position: absolute;
+    width: 439px;
+    height: 363px;
+    left: 550px;
+    top: 1495px;
+    background: url(../Picture/Benef5.png);
+    filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+    left: -25px;
+    scale: 0.8;
+  }
+  .benefits-2-5-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 335px;
+    top: 245px;
+  }
+  .benefits-2-6 {
+    position: absolute;
+    width: 439px;
+    height: 363px;
+    left: 1040px;
+    top: 1820px;
+    background: url(../Picture/Benef6.png);
+    filter: drop-shadow(0px 40px 22px rgba(0, 0, 0, 0.25));
+    left: -25px;
+    scale: 0.8;
+  }
+  .benefits-2-6-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 336px;
+    top: 245px;
+  }
+
 }
+

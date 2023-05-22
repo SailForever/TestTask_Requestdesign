@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>DELL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="CSS/Menu.css">
   <link rel="stylesheet" type="text/css" href="CSS/First_screen.css">
   <link rel="stylesheet" type="text/css" href="CSS/Catalogue.css">
   <link rel="stylesheet" type="text/css" href="CSS/Benefits.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Contacts.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Basement.css">
 </head>
 
 <body style="margin: 0px; overflow-x: hidden">
@@ -52,6 +55,15 @@
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Menu_picture.svg#profile"></use>
           </svg>
         </a>
+        <div class="menu-dropdown-win">
+          <a class="menu-dropdown-a1" href="index.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Menu_picture.svg#profile"></use>
+          </svg><span class="menu-dropdown-a1-text">Мария</span></a>
+          <a class="menu-dropdown-a2" href="index.html" target="_blank">Личный кабинет</a>
+          <a class="menu-dropdown-a3" href="index.html" target="_blank">История заказов</a>
+          <a class="menu-dropdown-a4" href="index.html" target="_blank">Персональные предложения</a>
+          <a class="menu-dropdown-a5" href="index.html" target="_blank">Выйти</a>
+        </div>
       </div>
       <div id="Stats" class="menu-picture-1">
         <a href="index.html" target="_blank" title="Stats">
@@ -73,6 +85,17 @@
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Menu_picture.svg#bag"></use>
           </svg>
         </a>
+      </div>
+
+      <div class="topnav">
+        <a href="#home" class="active" onclick="myFunction()"><img src="SVG/Burger.svg"></a>
+      <div id="myLinks" class="linkall">
+        <a class="link1" href="#news">ГЛАВНАЯ</a>
+        <a class="link2" href="#contact">КАТАЛОГ</a>
+        <a class="link3" href="#about">НОВОСТИ</a>
+        <a class="link4" href="#about">НАШ АСЦ</a>
+        <a class="link5" href="#about">КОНТАКТЫ</a>
+        <a class="icon" onclick="myFunction()"><img src="SVG/Cross.svg"></a>
       </div>
     </div>
   </div>
@@ -243,25 +266,142 @@
     <span class="benefits-2-text1">Последние новости</span>
     <span class="benefits-2-text2">Вы можете посмотреть ещё больше интересных новостей и узнать о последних новинках, перейдя по кнопке</span>
     <div class="benefits-2-1">
-      <div class="benefits-2-button">
-        <a href="index.html" target="_blank" title="Next">
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/ArrowR.svg#arrowR"></use>
-          </svg>
+      <div class="benefits-2-1-button">
+        <a href="index.html" target="_blank" title="GE используют технологии Dell">
+          <img src="SVG/ArrowRblack.svg">
         </a>
       </div>
     </div>
     <div class="benefits-2-2">
+      <div class="benefits-2-2-button">
+        <a href="index.html" target="_blank" title="GE используют технологии Dell">
+          <img src="SVG/ArrowRblack.svg">
+        </a>
+      </div>
     </div>
     <div class="benefits-2-3">
+      <div class="benefits-2-3-button">
+        <a href="index.html" target="_blank" title="GE используют технологии Dell">
+          <img src="SVG/ArrowRblack.svg">
+        </a>
+      </div>
     </div>
     <div class="benefits-2-4">
+      <div class="benefits-2-4-button">
+        <a href="index.html" target="_blank" title="GE используют технологии Dell">
+          <img src="SVG/ArrowRblack.svg">
+        </a>
+      </div>
     </div>
     <div class="benefits-2-5">
+      <div class="benefits-2-5-button">
+        <a href="index.html" target="_blank" title="GE используют технологии Dell">
+          <img src="SVG/ArrowRblack.svg">
+        </a>
+      </div>
     </div>
     <div class="benefits-2-6">
+      <div class="benefits-2-6-button">
+        <a href="index.html" target="_blank" title="GE используют технологии Dell">
+          <img src="SVG/ArrowRblack.svg">
+        </a>
+      </div>
     </div>
   </div>
+  <!--Contacts-->
+  <div class="contacts">
+    <div class="contacts-left">
+      <span class="contacts-left-bigText">Наши контакты</span>
+      <span class="contacts-left-smallext">Вы можете связаться с нашим онлайн-консультантом</span>
+      <div class="contacts-left-group">
+        <span class="contacts-left-address">Адрес</span>
+        <span class="contacts-left-addressText">Москва, ул. 3-я Хорошевская, дом 2, строение 1</span>
+        <span class="contacts-left-addressSvg"><img src="SVG/Location.svg"></span>
+        <span class="contacts-left-email">E-mail</span>
+        <span class="contacts-left-emailText">dell_ru@gmail.com</span>
+        <span class="contacts-left-emailSvg"><img src="SVG/E-mail.svg"></span>
+        <span class="contacts-left-phone">Телефон</span>
+        <span class="contacts-left-phoneText">
+          <a href="tel:+74957370601" >+7 495 737-06-01</a>
+          <a href="tel:+74957370601">+7 495 737-06-01</a>
+        </span>
+        <span class="contacts-left-phoneSvg"><img src="SVG/Phone.svg"></span>
+        <span class="contacts-left-fb"><a href="https://facebook.com/" target="_blank"><img src="SVG/FB.svg"></a></span>
+        <span class="contacts-left-phone2"><a href="tel:+74957370601"><img src="SVG/Phone2.svg"></a></span>
+      </div>
+    </div>
+    <div class="contacts-right">
+      <span class="contacts-right-text1">Оставьте заявку</span>
+      <span class="contacts-right-text2">Оставьте свой номер, и мы перезвоним Вам.</span>
+      <form class="formApply" name=firstF novalidate>
+        <div class="formApply-inner">
+          <span class="formApply-1">Ваше имя</span> <input class="formApply-inp1" type=text name=developers><b class="formApply-1fail" id=nameDevelopersFail></b><br>
+          <span class="formApply-2">Номер телефона</span> <input class="formApply-inp1" type=text name=nameWeb><b class="formApply-2fail" id=nameWebFail></b><br>
+          <span class="formApply-3">Комментарий</span> <textarea name=bigText></textarea><b class="formApply-3fail" id=bigTextFail></b><br>
+          <input class="formApply-img" type=submit name=done value='Заказать'>
+        </div>
+      </form>
+    </div>
+    <div class="iphone">
+
+    </div>
+  </div>
+  <!--BigImgOur-->
+  <div class="bigImgOur">
+    <div class="bigImgOur-text">our contacts</div>
+  </div>
+  <!--Basement-->
+  <div class="basement">
+    <div class="basement-logo">
+      <a href="index.html" title="Главная">
+      </a>
+    </div>
+    <div class="basement-line">
+    </div>
+    <div class="basement-text">
+      <div class="basement-text1">Каталог
+        <a class="a-text1" href="index.html">Ноутбуки</a>
+        <a class="a-text2" href="index.html">Персональные компьютеры</a>
+        <a class="a-text3" href="index.html">Серверы</a>
+        <a class="a-text4" href="index.html">Dell EMC</a>
+        <a class="a-text5" href="index.html">Запасные части к Dell EMC</a>
+      </div>
+      <div class="basement-text2">Личный кабинет
+        <a class="a1-text1" href="index.html">Профиль</a>
+        <a class="a1-text2" href="index.html">История заказов</a>
+        <a class="a1-text3" href="index.html">SMS-уведомления</a>
+        <a class="a1-text4" href="index.html">Избранное</a>
+        <a class="a1-text5" href="index.html">Сравнение товаров</a>
+      </div>
+      <div class="basement-text3">Помощь
+        <a class="a2-text1" href="index.html">Доставка и оплата</a>
+        <a class="a2-text2" href="index.html">Контакты</a>
+        <a class="a2-text3" href="index.html">FAQ</a>
+        <a class="a2-text4" href="index.html">Наш АСЦ</a>
+      </div>
+    </div>
+    <div class="basement-base">
+      <span class="basement-base-address">Адрес</span>
+      <span class="basement-base-addressText">Москва, ул. 3-я Хорошевская, дом 2, строение 1</span>
+      <span class="basement-base-phone">Телефон</span>
+      <span class="basement-base-phoneText">
+        <a href="tel:+74957370601">+7 495 737-06-01</a>
+        <a href="tel:+74957370601">+7 495 737-06-01</a>
+      </span>
+      <span class="basement-base-email">E-mail</span>
+      <span class="basement-base-emailText">dell_ru@gmail.com</span>
+      <span class="basement-base-fb"><a href="https://facebook.com/" target="_blank"><img src="SVG/FB.svg"></a></span>
+      <span class="basement-base-phone2"><a href="tel:+74957370601"><img src="SVG/Phone2.svg"></a></span>
+    </div>
+  </div>
+  <script type="text/javascript" src="JS/formApply.js"></script>
+  <script type="text/javascript" src="JS/MenuMob.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+

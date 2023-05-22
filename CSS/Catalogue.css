@@ -1,3 +1,4 @@
+
 .catalogue {
   position: absolute;
   width: 1920px;
@@ -183,4 +184,75 @@
   font-size: 25px;
   line-height: 150%;
   color: #292D32;
+}
+@media all and (max-width: 375px) {
+  .catalogue {
+    position: absolute;
+    width: 375px;
+    height: 2200px;
+    left: 0px;
+    top: 970px;
+    background: #FFFFFF;
+  }
+  .catalogue-f {
+    position: absolute;
+    width: 340px;
+    height: 311px;
+    left: 20px;
+    top: 0px;
+  }
+  .catalogue-f1 {
+    font-size: 40px;
+    width: 340px;
+  }
+  .catalogue-1 {
+    position: absolute;
+    width: 440px;
+    height: 371px;
+    left: -33px;
+    top: 350px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    scale: 0.8;
+  }
+  .catalogue-2 {
+    position: absolute;
+    width: 440px;
+    height: 371px;
+    left: -33px;
+    top: 700px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    scale: 0.8;
+  }
+  .catalogue-3 {
+    position: absolute;
+    width: 440px;
+    height: 371px;
+    left: -33px;
+    top: 1050px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    scale: 0.8;
+  }
+  .catalogue-4 {
+    position: absolute;
+    width: 440px;
+    height: 371px;
+    left: -33px;
+    top: 1400px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    scale: 0.8;
+  }
+  .catalogue-5 {
+    position: absolute;
+    width: 440px;
+    height: 371px;
+    left: -33px;
+    top: 1750px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    scale: 0.8;
+  }
 }
